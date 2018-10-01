@@ -1,0 +1,32 @@
+{
+  "name": "download-iamge-sqlserver",
+  "version": "0.0.1",
+  "description": "download image from sql server with query",
+  "main": "import-image-sqlserver.js",
+  "dependencies": {
+    "image-downloader": "^3.4.1",
+    "tedious": "^2.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./import-image-sqlserver",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hesamp/download-iamge-sqlserver.git"
+  },
+  "keywords": [
+    "sql",
+    "mssql",
+    "tedious",
+    "download",
+    "image"
+  ],
+  "author": "Hesam pourghazian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hesamp/download-iamge-sqlserver/issues"
+  },
+  "homepage": "https://github.com/Hesamp/download-iamge-sqlserver#readme"
+}
